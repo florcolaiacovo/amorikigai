@@ -5,6 +5,9 @@
     margin: 0px;
     padding: 0;
     }
+html{
+    width: 91vw;
+}
 body {
     width: 91vw;
     display: flex;
@@ -22,7 +25,7 @@ div.div1{
 }
 .div1part1{
     margin-top: 5px;
-    width: 100%;
+    width: 91vw;
     background-color: black;
     
     display: flex;
