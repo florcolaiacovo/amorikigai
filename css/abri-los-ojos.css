@@ -6,10 +6,10 @@
     padding: 0;
     }
 html{
-    width: 91vw;
+    width: 100%;
 }
 body {
-    width: 91vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +17,7 @@ body {
 }
 
 div.div1{
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -25,7 +26,7 @@ div.div1{
 }
 .div1part1{
     margin-top: 5px;
-    width: 91vw;
+    width: 100%;
     background-color: black;
     
     display: flex;
@@ -44,7 +45,7 @@ div.div1{
 }
 
 .div3{
-    width: 91vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -53,7 +54,7 @@ div.div1{
 }
 
 .div4{
-    width: 91vw;
+    width: 100%;
     margin-bottom: 15px;
     background-color: blueviolet;
     display: flex;
