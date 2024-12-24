@@ -115,8 +115,8 @@ div.div2-1 {
 .valor2, .valor1{
         text-align: center;
         font-family: "Playfair Display", Sans-serif;
-        font-size: 20px;
-        font-weight: 600;
+        font-size: 24px;
+        font-weight: 800;
         color: #800021;
 }
 .valor2{
@@ -215,7 +215,10 @@ li{
     text-align: center;
 }
 .item{
-    text-align: center;
+    text-align: center;    
+    font-family: "Lato", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
 }
 H1, h2{
     text-align: center;
@@ -382,6 +385,9 @@ li{
 }
 .item{
     text-align: center;
+    font-family: "Lato", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 h1{
