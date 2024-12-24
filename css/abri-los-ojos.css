@@ -217,7 +217,7 @@ li{
 .item{
     text-align: center;    
     font-family: "Lato", Sans-serif;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 600;
 }
 H1, h2{
@@ -325,7 +325,7 @@ flexbox{
         display: flex;
         padding-top: 10px;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         background-color:#FAF8F0;
     }
@@ -386,7 +386,7 @@ li{
 .item{
     text-align: center;
     font-family: "Lato", Sans-serif;
-    font-size: 22px;
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -426,6 +426,14 @@ H1, h2{
     font-weight: 600;
     color: #800021;
 }
+.div2-ul{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
 
 
 iframe{
@@ -435,7 +443,7 @@ iframe{
 }
 
 .mockup{
-    width: 90%;
+    width: 35%;
 }
 h4.h4part1{
 
