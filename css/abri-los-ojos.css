@@ -148,7 +148,7 @@ div.div2-1 {
     padding-right: 15px;
     
     border-radius: 15px;
-    background-color: #FAF8F0;
+    background-color: #7a6451;
 }
 .div3-libro{
     display: flex;
@@ -163,8 +163,9 @@ div.div2-1 {
     text-align: center;
     font-family: "Lato", serif;
     font-size: 17px;
-    font-weight:600;
+    font-weight:400;
     padding-top: 15px;
+    color: aliceblue;
     
 }
 .div3-h2{
