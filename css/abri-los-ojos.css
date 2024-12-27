@@ -50,13 +50,14 @@ div.div1{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color:  rgb(231, 220, 255);
+    background-color:  #FAF8F0;
 }
 
 .div4{
     width: 100%;
-    margin-bottom: 15px;
-    background-color: rgb(231, 220, 255);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #FAF8F0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,9 +97,17 @@ div.div1-1 {
     align-items: center;
 }
 
-.div1-h2{
+.div1-tit{
     font-family: "Playfair Display", Sans-serif;
     font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    color: #800021;
+}
+.div1-h2{
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 15px;
     font-weight: 600;
     color: #800021;
 }
@@ -130,10 +139,52 @@ div.div2-1 {
     align-items: center;
     justify-content: center;
 }
-.div3-h2{
-    width: 100%;
-    padding-bottom: 15px;
+.div3-1{
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    border-radius: 15px;
+    background-color: #7a6451;
 }
+.div3-libro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.div3-li{
+    
+    text-align: center;
+    font-family: "Lato", serif;
+    font-size: 17px;
+    font-weight:400;
+    padding-top: 15px;
+    color: aliceblue;
+    
+}
+.div3-h2{
+    text-align: center;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    border-radius: 15px;
+
+    background-color: #800021;
+    color: #fef0d8;
+    font-weight: 600;
+}
+
 
 .div3-ul{
     width: 100%;
@@ -143,8 +194,8 @@ div.div2-1 {
 }
 
 .div4-1{
-    width: 90%;
-    background-color: blueviolet;
+    width:80%;
+    background-color: #FAF8F0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,7 +207,13 @@ div.div2-1 {
 .div4-h2{
     width: 85%;
     padding-bottom: 15px;
+    text-align: center;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #800021;
 }
+
 
 .div4-ul{
     width: 100%;
@@ -164,6 +221,16 @@ div.div2-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.div4-li{
+     
+    text-align: center;
+    font-family: "Lato", serif;
+    font-size: 15px;
+    font-weight:400;
+    padding-top: 15px;
+    
 }
 
 
@@ -220,17 +287,16 @@ li{
     font-size: 15px;
     font-weight: 600;
 }
-H1, h2{
-    text-align: center;
-    padding-top: 15px;
-}
+
 h1{
     text-align: center;
     font-family: "Playfair Display", Sans-serif;
-    font-size: 30px;
+    font-size:25px;
+    padding-bottom: 5px;
     font-weight: 600;
     color: #54595f;
 }
+
 
 
 
@@ -277,6 +343,20 @@ flexbox{
 .img4{
     padding-bottom: 15px;
 }
+button{
+    background-color: #A32318;
+    border-radius:5px;
+    padding: 5px 5px 5px 5px;
+    padding-top: 3px;
+}
+a{
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FAF8F0;
+    text-decoration: inherit;
+}
+
 }
 
 
@@ -334,14 +414,16 @@ flexbox{
         width: 100%;
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        background-color:  rgb(231, 220, 255);
+        background-color: #FAF8F0;
     }
+
+
     .div4{
         width: 100%;
         margin-bottom: 15px;
-        background-color: rgb(231, 220, 255);
+        background-color:#faf8f0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -375,6 +457,36 @@ flexbox{
         align-items: center;
     }
 
+    .div3-h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-family: "Playfair Display", Sans-serif;
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        border-radius: 15px;
+
+        background-color: #800021;
+        color: #fef0d8;
+        font-weight: 600;
+    }
+    .div4-h2{
+        width: 85%;
+        text-align: center;
+        font-family: "Playfair Display", Sans-serif;
+        font-size: 24px;
+        font-weight: 800;
+        color: #800021;
+    }
+    
+    
+
     /******************************************************/
 
     
@@ -396,6 +508,8 @@ h1{
     font-size: 30px;
     font-weight: 600;
     color: #54595f;
+    
+    padding-bottom: 10px;
 }
 
 header{
@@ -408,21 +522,24 @@ header{
 }
 .header{
     font-family: "Libre Baskerville", Sans-serif;
-    font-size: 8px;
+    font-size: 13px;
     font-weight: 600;
     color:#ffffff ;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-H1, h2{
-    text-align: center;
+.div1-tit{
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 15px;
     padding-top: 15px;
+    font-weight: 600;
+    color: #800021;
 }
 
 .div1-h2{
     font-family: "Playfair Display", Sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     color: #800021;
 }
@@ -434,7 +551,75 @@ H1, h2{
     align-items: center;
     justify-content: center;
 }
+.div3-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    margin-top: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    
+    border-radius: 15px;
+    background-color: #7a6451;
+}
+.div3-ul{
+    width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+}
 
+.div3-libro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.div3-li{
+    
+    text-align: center;
+    font-family: "Lato", serif;
+    font-size: 15px;
+    font-weight:400;
+    padding-top: 15px;
+    color: aliceblue;
+    
+}
+
+.div4-1{
+    width:70%;
+    background-color: #FAF8F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+.div4-ul{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div4-li{
+     
+    text-align: center;
+    font-family: "Lato", serif;
+    font-size: 15px;
+    font-weight:400;
+    padding-top: 5px;
+    
+    
+}
 
 iframe{
     margin-bottom: 20px;
@@ -444,17 +629,19 @@ iframe{
 
 .mockup{
     width: 35%;
+    padding-top: 15px;
+    padding-bottom: 35px;
 }
 h4.h4part1{
 
     padding-top: 15px;
     padding-bottom: 15px;
     color: aliceblue;
-    width: 90%;
+    width: 65%;
 
     text-align: center;
     font-family: "Playfair Display", Sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 600;
 }
 
@@ -469,13 +656,19 @@ flexbox{
 }
 
 .libro{
-    width: 90%;
+    width: 40%
 }
 .div6-h2{
     font-family: "Playfair Display", Sans-serif;
     font-size: 25px;
     font-weight: 600;
     color: #54595f;
+}
+
+.div2-precio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img1{
@@ -496,5 +689,34 @@ flexbox{
     width: 30vw;
     padding: 15px 15px 15px 15px;
 }
+
+
+
+.valor2, .valor1{
+    text-align: center;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #800021;
+}
+.valor2{
+margin-bottom: 20px;
+font-size: 25px;
+}
+
+button{
+    background-color: #A32318;
+    border-radius:5px;
+    padding: 5px 5px 5px 5px;
+    padding-top: 3px;
+}
+a{
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #FAF8F0;
+    text-decoration: inherit;
+}
+
 
 }
