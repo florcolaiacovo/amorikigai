@@ -148,7 +148,7 @@ div.div2-1 {
     padding-right: 15px;
     
     border-radius: 15px;
-    background-color: #7a6451;
+    background-color: #FAF8F0;
 }
 .div3-libro{
     display: flex;
@@ -163,9 +163,8 @@ div.div2-1 {
     text-align: center;
     font-family: "Lato", serif;
     font-size: 17px;
-    font-weight:400;
+    font-weight:600;
     padding-top: 15px;
-    color: aliceblue;
     
 }
 .div3-h2{
@@ -348,6 +347,8 @@ button{
     border-radius:5px;
     padding: 5px 5px 5px 5px;
     padding-top: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 a{
     font-family: "Playfair Display", Sans-serif;
