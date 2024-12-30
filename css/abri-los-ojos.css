@@ -138,6 +138,9 @@ div.div2-1 {
     align-items: center;
 }
 
+.valor1{
+    animation: pulse 1.5s infinite;
+}
 .valor2, .valor1{
         text-align: center;
         font-family: "Playfair Display", Sans-serif;
