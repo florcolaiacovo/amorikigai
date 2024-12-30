@@ -407,6 +407,8 @@ button{
     padding-top: 3px;
     margin-top: 50px;
     margin-bottom: 20px;
+    
+    animation: pulse 1.5s infinite;
 }
 a{
     font-family: "Playfair Display", Sans-serif;
@@ -420,7 +422,7 @@ a{
 @keyframes show {
 	from {
 		opacity: 0;
-		scale: 25%;
+		scale: 50%;
 	}
 
 	to {
@@ -429,7 +431,7 @@ a{
 	}
 }
 
-.div4, .div3-pc,.div5, .div2-1, .div2-ul
+.div4, .div3,.div5, .div2-1, .div2-ul
 {
 	view-timeline-name: --image;
 	view-timeline-axis: block;
@@ -443,7 +445,7 @@ a{
 }
 
 
-/*----------------------------para pc------------------*/
+/*----------------------------para pc escritorio-------*/
 /*-----------------------------------------------------*/
 /*-----------------------------------------------------*/
 
@@ -581,7 +583,7 @@ a{
         
         text-align: center;
         font-family: "Playfair Display", Sans-serif;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 800;
         color: #800021;
     }
@@ -596,7 +598,7 @@ a{
     }
     .div5-li{
         font-family: "Lato", serif;
-        font-size:08px;
+        font-size:12px;
         font-weight:500;
     }
     
@@ -626,7 +628,7 @@ a{
         justify-content: center;
         text-align: center;
         font-family: "Playfair Display", Sans-serif;
-        font-size: 15px;
+        font-size: 20px;
 
         padding-left: 15px;
         padding-right: 15px;
@@ -640,7 +642,7 @@ a{
         width: 85%;
         text-align: center;
         font-family: "Playfair Display", Sans-serif;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 800;
         color: #800021;
     }
@@ -752,7 +754,7 @@ header{
     width: 80%;
 
     font-family: "Lato", serif;
-    font-size: 08px;
+    font-size: 12px;
     font-weight:400;
     
 }
@@ -782,7 +784,7 @@ header{
 }
 .div4-li{
     font-family: "Lato", serif;
-    font-size: 08px;
+    font-size: 12px;
     font-weight:400;
     
     
@@ -865,6 +867,7 @@ flexbox{
     font-size: 30px;
     font-weight: 800;
     color: #800021;
+    
 }
 .valor2{
 margin-bottom: 20px;
@@ -878,6 +881,9 @@ button{
     padding-top: 3px;
 
     margin-bottom: 35px;
+
+    animation: pulse 1.5s infinite;
+
 }
 
 a{
@@ -900,8 +906,11 @@ a{
 		scale: 100%;
 	}
 }
-
-.div4, .div3-pc,.div5, .valor1, .valor2
+.valor1{
+    
+    animation: pulse 1.5s infinite;
+}
+.div4, .div3-pc,.div5, .valor2, .div2-ul
 {
 	view-timeline-name: --image;
 	view-timeline-axis: block;
