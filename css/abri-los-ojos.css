@@ -434,7 +434,7 @@ a{
 	}
 }
 
-.div4, .div3,.div5, .div2-1, .div2-ul
+.div4-h2, .div3-h2,.div5-h2
 {
 	view-timeline-name: --image;
 	view-timeline-axis: block;
@@ -913,7 +913,7 @@ a{
     
     animation: pulse 1.5s infinite;
 }
-.div4, .div3-pc,.div5, .valor2, .div2-ul
+.div4, .div3-pc,.div5, .div2-ul
 {
 	view-timeline-name: --image;
 	view-timeline-axis: block;
